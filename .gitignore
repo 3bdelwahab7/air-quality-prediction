@@ -1,0 +1,35 @@
+# Node dependencies and builds
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Python artifacts
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files and secrets
+.env
+.env.*
+frontend/.env.local
+# Keep safe, shareable examples
+!.env.example
+!.env.*.example
+!frontend/.env.production.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS files
+.DS_Store
+Thumbs.db
